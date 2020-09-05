@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: lato;
+	background: #2D3743;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.container {
+	max-width: 1120px;
+	margin: 0px auto;
+}
+
+.card {
+	width: 450px;
+	background: #DD3333;
+	margin: 30px auto;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+input[type=number] {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	border: none;
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+
+#fact {
+	display: none;
+}
+
+@media(max-width: 700px) {
+	.card {
+		width: 90%;
+	}
+}
